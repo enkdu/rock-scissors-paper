@@ -1,0 +1,18 @@
+footer {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+footer span {
+    font-family: 'Comfortaa';
+    color: rgba(71, 71, 71, 0.5);
+    cursor: pointer;
+    font-size: 14px;
+}
+
+footer span sup {
+    cursor: pointer;
+    font-size: 10px;
+}
+

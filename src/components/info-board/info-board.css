@@ -1,0 +1,16 @@
+.info-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.info-wrapper p{
+    font-family: 'Comfortaa';
+    color: rgb(48, 138, 133);
+    display: flex;
+    font-size: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+}

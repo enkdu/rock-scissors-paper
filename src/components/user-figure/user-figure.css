@@ -1,0 +1,40 @@
+.user-figure-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 3px solid rgb(95, 87, 82);
+    height: 200px;
+}
+
+.user-figure-wrapper div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 0px 2px 2px rgb(95, 87, 82, 0.4);
+    border-radius: 4px;
+    margin: 10px; 
+    padding: 25px 20px;
+    height: 50px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.user-figure-wrapper div:hover {
+    color: rgb(95, 87, 82);
+    background-color: rgba(209, 97, 97, 0.4) !important;
+    border-bottom: 3px solid rgb(95, 87, 82, 0.4);
+}
+
+.user-figure-wrapper div:active {
+   margin-bottom: 1px;
+}
+
+.user-figure-wrapper div i {
+    color: rgba(95, 87, 82, 0.7);
+    font-size: 20px;
+}
+
+
+.blue {
+    background-color: rgba(21, 83, 94, 0.4) !important;
+}
